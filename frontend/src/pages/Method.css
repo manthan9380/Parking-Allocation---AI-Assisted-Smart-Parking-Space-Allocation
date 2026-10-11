@@ -1,0 +1,87 @@
+.method-page {
+  max-width: 800px;
+}
+
+.method-section {
+  margin-bottom: 32px;
+}
+
+.method-section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.formula-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 16px;
+  margin: 12px 0;
+  overflow-x: auto;
+}
+
+.constraint-list {
+  list-style: none;
+  padding: 0;
+}
+
+.constraint-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.constraint-list li:last-child {
+  border-bottom: none;
+}
+
+.worked-example {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.worked-example h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.example-matrix {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  margin: 12px 0;
+}
+
+.example-matrix table {
+  margin: 0 auto;
+}
+
+.example-matrix td {
+  padding: 6px 12px;
+  text-align: center;
+}
+
+.example-solution {
+  margin-top: 12px;
+  padding: 12px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+}
+
+.cost-function-details {
+  font-size: 13px;
+  line-height: 1.8;
+  margin-top: 12px;
+}
+
+.cost-function-details code {
+  background: var(--bg);
+  padding: 2px 6px;
+  border-radius: 2px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+}

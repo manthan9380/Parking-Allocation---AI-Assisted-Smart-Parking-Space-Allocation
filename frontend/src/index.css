@@ -1,0 +1,123 @@
+/* Global reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --border: #d0d0d0;
+  --accent: #4a5568;
+  --surface: #fafafa;
+
+  /* Space states */
+  --available: #e8f5e9;
+  --occupied: #ffebee;
+  --unavailable: #f5f5f5;
+  --assigned: #fff3e0;
+
+  /* Monospace for numbers */
+  --font-mono: 'SF Mono', 'Monaco', 'Inconsolata', 'Courier New', monospace;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  background: var(--text);
+  color: var(--bg);
+  border: 1px solid var(--text);
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+button:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.secondary {
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+button.secondary:hover {
+  background: var(--surface);
+}
+
+input, select {
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid var(--border);
+  padding: 6px 8px;
+  border-radius: 2px;
+}
+
+input:focus, select:focus {
+  outline: 2px solid var(--text);
+  outline-offset: 1px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid var(--border);
+}
+
+th {
+  background: var(--surface);
+  font-weight: 600;
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+/* Utility classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.card h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}

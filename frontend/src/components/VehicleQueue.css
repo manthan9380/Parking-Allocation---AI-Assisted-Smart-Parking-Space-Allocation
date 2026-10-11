@@ -1,0 +1,55 @@
+.vehicle-queue {
+  margin-bottom: 16px;
+}
+
+.add-vehicle-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.add-vehicle-form select {
+  flex: 1;
+  min-width: 100px;
+}
+
+.vehicle-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.vehicle-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  font-size: 13px;
+}
+
+.vehicle-info {
+  display: flex;
+  gap: 12px;
+}
+
+.vehicle-id {
+  font-weight: 600;
+  font-family: var(--font-mono);
+}
+
+.vehicle-item button {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.queue-controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}

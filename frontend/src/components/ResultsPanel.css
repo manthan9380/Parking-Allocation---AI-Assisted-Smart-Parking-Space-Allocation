@@ -1,0 +1,74 @@
+.results-panel {
+  margin-top: 20px;
+}
+
+.results-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.result-card {
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 12px;
+}
+
+.result-card h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.metrics-grid {
+  display: grid;
+  gap: 8px;
+}
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.metric-label {
+  color: var(--accent);
+}
+
+.metric-value {
+  font-family: var(--font-mono);
+  font-weight: 600;
+}
+
+.assignments-table-wrapper {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 8px;
+}
+
+.assignments-table {
+  font-size: 12px;
+}
+
+.assignments-table td {
+  font-family: var(--font-mono);
+}
+
+.improvement-banner {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 12px;
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.improvement-value {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  color: var(--accent);
+  margin: 0 4px;
+}

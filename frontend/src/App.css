@@ -1,0 +1,44 @@
+.app-header {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 16px 0;
+  margin-bottom: 20px;
+}
+
+.app-header .container {
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.app-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.app-nav {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.app-nav a {
+  display: block;
+  padding: 8px 12px;
+  color: var(--text);
+  text-decoration: none;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+
+.app-nav a:hover {
+  background: var(--surface);
+}
+
+.app-nav a.active {
+  border-color: var(--border);
+  background: var(--surface);
+}

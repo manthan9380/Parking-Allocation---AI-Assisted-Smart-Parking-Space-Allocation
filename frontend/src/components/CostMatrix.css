@@ -1,0 +1,43 @@
+.cost-matrix {
+  margin-top: 16px;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  user-select: none;
+}
+
+.collapsible-header:hover {
+  background: var(--border);
+}
+
+.matrix-table-wrapper {
+  overflow-x: auto;
+  margin-top: 12px;
+}
+
+.matrix-table {
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+.matrix-table th {
+  background: var(--surface);
+  font-size: 10px;
+}
+
+.matrix-table td {
+  text-align: right;
+}
+
+.matrix-table .infeasible {
+  color: var(--accent);
+  opacity: 0.5;
+}
